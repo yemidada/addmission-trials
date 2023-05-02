@@ -1,0 +1,168 @@
+
+#nav{
+background-color: rgb(165, 65, 65);
+padding: 20px;
+}
+#nav ul{
+    list-style-type: none;
+    display: inline;
+    color: white;
+}
+
+#nav ul a{
+    color: white;
+    text-decoration: none;
+    text-align: start;
+}
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+.project {
+    background: gray;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+  }
+  .caption-project {
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+  }
+
+.images{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-gap: 4rem;
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        margin-bottom: 0px;
+        margin-bottom: 6rem;
+
+}
+.project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+  }
+    
+/* .imgdiv img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    margin: 0 auto;
+      margin-bottom: 0px;
+    margin-bottom: 6rem;
+    width: 350px;
+    height: 300px;
+} */
+.code {
+    color: var(--main-gray);
+    transition: color 0.3s ease-out;
+  }
+
+h1,
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+  color: white;
+}
+
+h2 {
+  font-size: 4.2rem;
+}
+html {
+    box-sizing: border-box;
+  
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+p{
+    text-align: center;
+}
+
+.projects-section{
+    padding-top: 200px;
+    text-align: center;
+    padding: 10rem 2rem;
+    background: rgb(25, 25, 71);
+
+}
+
+
+.projects-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid white;
+  }
+
+  @media (max-width: 28.75em) {
+    .projects-section-header {
+      font-size: 4rem;
+    }
+  }
+
+ 
+  
+  @media (max-width: 30.625em) {
+    .projects-section {
+      padding: 6rem 1rem;
+    }
+  
+    .images {
+      grid-template-columns: 1fr;
+    }
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem; /* 18px */
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--main-white);
+  }
+  .btn-show-all {
+    font-size: 2rem;
+    background: var(--main-gray);
+    transition: background 0.3s ease-out;
+  }
+  .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+  }
+  .fa, .fas {
+    font-weight: 900;
+  }
+  .fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+  }
+  .fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+  }  
